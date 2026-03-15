@@ -1,3 +1,89 @@
-*{
-    color: rgb(44, 104, 170);
+* {
+    color: rgb(44, 104, 166);
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+header {
+    margin-top: 2%;
+    text-align: center;
+    border-bottom: 3px solid rgb(44, 104, 166);
+    padding: 10px;
+}
+
+.rendezes, .szures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.atlageletkor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.kartyak {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.kartya {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid rgb(44, 104, 166);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(44, 104, 166);
+}
+
+.kartya-kep {
+    flex: 0 1 auto;
+}
+
+.kartya-keret {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    color: rgb(44, 104, 166);
+    border: 1px solid rgb(44, 104, 166);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(44, 104, 166);
+    border: 1px solid white;
+}
+
+footer {
+    margin-bottom: 2%;
+    text-align: center;
+    border-top: 3px solid rgb(44, 104, 166);
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
 }
